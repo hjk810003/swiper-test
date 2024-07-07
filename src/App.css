@@ -18,7 +18,7 @@ header {
 
 .fullpage-swiper {
   position: relative;
-  height: calc(100vh - 56px);
+  height: 100vh;
   padding-top: 56px;
 
   > .swiper-wrapper {
@@ -48,6 +48,7 @@ header {
 }
 
 .inner-swiper {
+  .swiper-wrapper{ transition-timing-function: linear; }
 }
 
 .inner-slide {
